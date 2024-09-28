@@ -4,9 +4,9 @@
 
 [![License: MIT](https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/65dd9eb5aaca434fac4f1c34_License-MIT-blue.svg)](/LICENSE)
 
-This is an open-source GUI desktop software designed to upload files to Sqlite on our desktop.
+This is an open-source GUI desktop software designed to upload files to sqlite on our desktop.
 
-When you are using Windows system environment, you can download python file and run this script below on your terminal.
+When you are using the Windows system environment, you can download python file and run this script below on your terminal.
 
 <p align="center">
   <img src="screenshot/output_windows_exe.JPG" width="850" alt="accessibility text">
@@ -17,14 +17,14 @@ pyinstaller --onefile --name huizhou-grocery -i logo.jpg --windowed huizhouGroce
 ```
 
 
-After that you will get an exe file on your working directory.
+After that, you will get an exe file in your working directory.
 
 
 <p align="center">
   <img src="screenshot/window_exe.JPG" width="150" title="hover text">
 </p>
 
-We could test our software on Windows environment.
+We could test our software in a Windows environment.
 
 <p align="center">
   <img src="screenshot/windows_exe_intro.JPG" width="360" title="hover text">
@@ -34,12 +34,12 @@ We could test our software on Windows environment.
   <img src="screenshot/windows_huizhou_grocery.JPG" width="360" title="hover text">
 </p>
 
-Once you input dates or some words and click upload, you will start to select your files that will be uploaded to your local Sqlite database(not remote server). Your selected files(images,xlsx) will be converted to BLOB data and stored in sqlite.
+Once you input dates or some words and click upload, you will start to select your files that will be uploaded to your local Sqlite database(not remote server). Your selected files(images, xlsx) will be converted to BLOB data and stored in sqlite.
 
 <p align="center">
   <img src="screenshot/insertDateTo_Sqlite.JPG" width="360" title="hover text">
 </p>
 
-We are devloping some softwares to support our POS(point of sale) system. This is our open-source project.
+We are developing some software programs to support our POS (point of sale) system. This is our open-source project. Python code could be cross-platform for many users (like Linux environment).
 
 
