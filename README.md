@@ -34,7 +34,7 @@ We could test our software in a Windows environment.
   <img src="screenshot/windows_huizhou_grocery.JPG" width="360" title="hover text">
 </p>
 
-Once you input dates or some words and click upload, you will start to select your files that will be uploaded to your local Sqlite database(not remote server). Your selected files(images, xlsx) will be converted to BLOB data and stored in sqlite.
+Once you input dates or some words and click upload, you will start to select your files that will be uploaded to your local sqlite database(not remote server). Your selected files(images, xlsx) will be converted to BLOB data and stored in sqlite.
 
 <p align="center">
   <img src="screenshot/insertDateTo_Sqlite.JPG" width="360" title="hover text">
