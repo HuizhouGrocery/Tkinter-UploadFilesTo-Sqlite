@@ -23,7 +23,7 @@ class DatabaseApp:
         self.root.geometry("900x600")
 
         # Create a database or connect to an existing one
-        self.conn = sqlite3.connect(r"C:\Users\18852\Desktop\Order_image\test.db")
+        self.conn = sqlite3.connect(r"Your database working directory\test.db")
         self.cursor = self.conn.cursor()
 
         # Create a table if it doesn't exist
@@ -35,7 +35,7 @@ class DatabaseApp:
         self.date_label.pack()
         self.date_label.place(x=250, y=155, width=60, height=40)
 
-        self.date_entry = tk.Entry(root)
+        self.date_entry = ttk.Entry(root)
         self.date_entry.pack()
         self.date_entry.place(x=350, y=155, width=200, height=30)
 
